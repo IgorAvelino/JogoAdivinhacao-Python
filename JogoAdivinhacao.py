@@ -17,6 +17,8 @@ while True:
     elif op.lower() == 'n':
         break
 
+    print('Opção Inválida\n')
+
 maxn = int(input('\nDigite a dificuldade: '))
 num = randint(1, maxn)
 sleep(.5)
